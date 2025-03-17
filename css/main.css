@@ -1,0 +1,42 @@
+/* Reset default styling */
+html, body {
+    font-family: "Montserat", poppins, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.hero-section {
+    margin: 3% auto;
+    text-align: center;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.hero-section h1 {
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.search-container {
+    max-width: 900px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+/* featured events */
+.c-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.c-img {
+    height: 100%;
+}
